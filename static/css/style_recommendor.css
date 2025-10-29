@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-section {
+    background-color: #343a40;
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 30px;
+}
+.book-card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    height: 100%;
+    position: relative;
+}
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.book-img {
+    height: 250px;
+    object-fit: contain;
+    background-color: #f1f1f1;
+}
+.type-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.method-badge {
+    font-size: 1rem;
+}
