@@ -51,25 +51,21 @@ Unlike basic recommendation systems, **BookSage-AI** applies NLP techniques like
 To run this project locally:
 ### 1. Go to Desktop and clone project
 
-⁠ bash
 cd ~/Desktop
 git clone https://github.com/riyamandowara/BookSage-AI.git
 cd BookSage-AI
 
 ### 2. Install compatible Python (3.11)
 
-⁠ bash
 brew install python@3.11
 
 ### 3. Create & activate virtual environment
 
-⁠ bash
 python3.11 -m venv venv
 source venv/bin/activate
 
 ### 4. Upgrade pip
 
-⁠ bash
 pip install --upgrade pip
 
 
@@ -77,7 +73,6 @@ pip install --upgrade pip
 
 (This avoids Python 3.13–related issues and ensures pickle compatibility)
 
-⁠ bash
 pip install flask==2.3.3
 pip install numpy==1.26.4
 pip install pandas==2.2.2
@@ -85,13 +80,11 @@ pip install scikit-learn==1.3.2
 pip install scipy==1.11.4
 pip install nltk==3.8.1
 pip install gunicorn==21.2.0
- ⁠
 
 	⁠These versions are stable for 3.11 and known to work perfectly with BookSage-AI’s ⁠ .pkl ⁠ files.
 
 ### 6. Run the Flask app
 
-⁠ bash
 python app.py
  ⁠
 	⁠You’ll see something like:
@@ -115,7 +108,6 @@ You’ll see the *BookSage-AI interface* where you can:
 
 When done, press:
 
-⁠ bash
 CTRL + C
  ⁠
 
@@ -123,7 +115,6 @@ CTRL + C
 
 Just do these three steps (no need to reinstall everything):
 
-⁠ bash
 cd ~/Desktop/BookSage-AI
 source venv/bin/activate
 python app.py
