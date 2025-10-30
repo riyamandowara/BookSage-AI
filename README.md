@@ -111,7 +111,7 @@ When done, press:
 CTRL + C
  ⁠
 
-## 9. Next time (for your class demo)
+## 9. Next time 
 
 Just do these three steps (no need to reinstall everything):
 
